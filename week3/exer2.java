@@ -1,9 +1,11 @@
+package week3;
 import java.util.Scanner;
 class employee{
 	String ename;
 	int eid;
 	double basic, da, gross_sal, net_sal;
 	void read(){
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Employee name: ");
 		ename = sc.nextLine();
@@ -31,6 +33,7 @@ class employee{
 }
 class exer2{
 	public static void main(String[] args){
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter no. of employees: ");
 		int n = sc.nextInt();

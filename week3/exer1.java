@@ -1,3 +1,4 @@
+package week3;
 import java.util.Scanner;
 class student{
 	String sname;
@@ -26,6 +27,7 @@ class student{
 }
 class exer1{
 	public static void main(String[] args){
+		@SuppressWarnings("resource")
 		Scanner sc = new Scanner(System.in);
 		student stud1 = new student();
 		System.out.println("Enter Student name: ");
