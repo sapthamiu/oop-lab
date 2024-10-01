@@ -1,5 +1,5 @@
 package com.course.structure;
-public class House extends Building{
+public class House extends com.course.structure.Building {
 	private int bed;
 	private int bath;
 	public int getbed(){

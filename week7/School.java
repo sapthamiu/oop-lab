@@ -1,5 +1,5 @@
 package com.course.structure;
-public class School extends Building{
+public class School extends com.course.structure.Building {
 	private int clroom;
 	private String grade;
 	public int getclroom(){

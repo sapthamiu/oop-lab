@@ -2,7 +2,7 @@ import java.util.Scanner;
 import com.course.structure.Building;
 import com.course.structure.House;
 import com.course.structure.School;
-public class BuildDemo{
+public class BuildDemo7 {
 	public static void main(String[] args){
 		Scanner sc = new Scanner(System.in);
 		//General Building
@@ -36,6 +36,6 @@ public class BuildDemo{
 			}
 			else System.out.println("Exiting.");
 		}while(choice == 1 || choice == 2);
-		sc.close();
+	//	sc.close();
 	}
 }

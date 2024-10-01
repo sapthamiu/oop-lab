@@ -25,7 +25,7 @@ public class MaxDemo{
 				case 3: System.out.println("Enter size of array: ");
 						int size = sc.nextInt();
 						System.out.println("Enter the elements: ");
-						int arr[] = new int[size];
+						int []arr = new int[size];
 						for(int i = 0;i<size;i++)
 							arr[i] = sc.nextInt();
 						System.out.println("Maximum: " + maximum.max(arr));
